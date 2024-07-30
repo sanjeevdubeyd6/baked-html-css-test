@@ -1,0 +1,186 @@
+@media screen and (max-width: 1200px) {
+    .backImgfood1 {
+        height: 180px;
+    }
+
+    .backImgfood2 {
+        width: 400px;
+        z-index: 1;
+        top: 0;
+        left: calc(50% - 120px);
+        height: 100px;
+    }
+
+    .backImgfood3 {
+        left: calc(100% - 250px);
+        height: 230px;
+        transform: rotate(-8.81deg);
+    }
+
+    .backImgfood4 {
+        width: 460px;
+        height: 230px;
+    }
+
+    .backImgfood5 {
+        left: calc(100% - 280px);
+        height: 240px;
+        transform: rotate(-8.81deg);
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .home-main-view {
+        max-width: 500px;
+        gap: 10px;
+        margin-top: 60px;
+    }
+}
+
+
+@media screen and (max-width: 1080px) {
+    .nav {
+        display: none;
+    }
+
+    .home-desc {
+        font-family: Jost;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .backImgfood4 {
+        width: 300px;
+        height: 188px;
+    }
+
+    .home-shop-now {
+        width: 120px;
+        height: 12px;
+        padding: 15px 6px 14px 15px;
+        text-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .backImgfood4 {
+        width: 196px;
+        height: 180px;
+    }
+
+    .home-heading>h1 {
+        font-size: 50px;
+    }
+
+    .home-main-view {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .backImgfood1 {
+        height: 120px;
+    }
+
+    .backImgfood2 {
+        width: 200px;
+        z-index: 1;
+        top: 0;
+        left: calc(50% - 90px);
+        height: 70px;
+    }
+
+    .backImgfood3 {
+        left: calc(100% - 119px);
+        height: 100px;
+        transform: rotate(-8.81deg);
+    }
+
+    .backImgfood4 {
+        width: 260px;
+        height: 100px;
+    }
+
+    .backImgfood5 {
+        left: calc(100% - 100px);
+        height: 100px;
+        transform: rotate(-8.81deg);
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+    .header {
+        height: 40px;
+    }
+    .cart-icon img {
+        width: 20px;
+        height: 20px;
+    }
+    .cart-count {
+        position: absolute;
+        top: -6px;
+        right: -8px;
+        background-color: #000;
+        color: #fff;
+        border-radius: 50%;
+        padding: 1px 3px 1px 3px;
+        font-size: 9px;
+    }
+
+    .home-main-view {
+        max-width: 80%;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    .home-heading>h1 {
+        font-size: 30px;
+    }
+    .home-desc {
+        font-size: 15px;
+        line-height: 18px;
+      }
+
+      .home-shop-now {
+        width: 130px;
+        height: 25px;
+        padding: 6px 10px 6px 10px;
+        gap: 6px;
+        font-size: 16px;
+        border: 1px solid #CF8C0B;
+      }
+      .about-container {
+        padding: 50px 0px 50px 0px;
+      }
+}
+
+@media screen and (max-width: 400px) {
+    .backImgfood1 {
+        height: 80px;
+        top: 30px;
+    }
+
+    .home-main-view {
+        gap: 30px;
+        margin-top: 20px;
+    }
+    .home-heading>h1 {
+        font-size: 40px;
+    }
+    .backImgfood2 {
+        width: 200px;
+        z-index: 1;
+        top: 0;
+        left: calc(50% - 90px);
+        height: 70px;
+    }
+    .backImgfood3 {
+        top: 30px;
+    }
+}
+
